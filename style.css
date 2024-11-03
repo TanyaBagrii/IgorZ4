@@ -1,0 +1,255 @@
+/* styles/style.css */
+
+body {
+     font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
+	background-image: url('https://learn.logikaschool.com/uploads/student/1430985/6714b0a88de5e.png'); /* путь к вашему изображению */
+    background-size: cover; /* Растягивает изображение, чтобы покрыть весь экран */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Запрещает повтор изображения */
+    background-attachment: fixed; /* Фиксирует фон, чтобы он оставался на месте при прокрутке */
+}
+
+header {
+	background-size: cover;
+    background-image: url(https://learn.logikaschool.com/uploads/student/1430985/6714b322ac33c.png);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+header img {
+    height: 200px;
+    vertical-align: middle;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    background-image: url(https://learn.logikaschool.com/uploads/student/1430985/6714b1ced80a4.png);
+    color: #302d41;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.character-card {
+    background: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.character-card img {
+    width: 150px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.igor{
+    width: 1000px;
+    display: flex;
+}
+p{
+    border: 2px solid rgba(0, 0, 0, 0.521);
+    background-color: rgba(0, 0, 0, 0.658);
+}
+p:hover{
+    box-shadow: 0px 5px 10px 0px rgb(12, 40, 100);
+}
+.VOIDHEART:hover{
+    box-shadow: 10px 10px 10px 10px rgb(12, 40, 100)
+}
+.MAIN {
+	color: #FFF;
+	transition: all 0.3s;
+	position: relative;
+}
+.MAIN span {
+	transition: all 0.3s;
+}
+.MAIN::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
+}
+.MAIN:hover span {
+	letter-spacing: 2px;
+}
+.MAIN:hover::before {
+	opacity: 1;	
+	transform: scale(1, 1);	
+}
+.MAIN::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	background-color: rgba(255, 255, 255, 0);
+}
+.MAIN:hover::after {
+	opacity: 0;	
+	transform: scale(0.1, 1);
+}
+.CHARA {
+	color: #FFF;
+	transition: all 0.3s;
+	position: relative;
+}
+.CHARA span {
+	transition: all 0.3s;
+}
+.CHARA::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
+}
+.CHARA:hover span {
+	letter-spacing: 2px;
+}
+.CHARA:hover::before {
+	opacity: 1;	
+	transform: scale(1, 1);	
+}
+.CHARA::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	background-color: rgba(255, 255, 255, 0);
+}
+.CHARA:hover::after {
+	opacity: 0;	
+	transform: scale(0.1, 1);
+}
+.CONTACTS {
+	color: #FFF;
+	transition: all 0.3s;
+	position: relative;
+}
+.CONTACTS span {
+	transition: all 0.3s;
+}
+.CONTACTS::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
+}
+.CONTACTS:hover span {
+	letter-spacing: 2px;
+}
+.CONTACTS:hover::before {
+	opacity: 1;	
+	transform: scale(1, 1);	
+}
+.CONTACTS::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	background-color: rgba(255, 255, 255, 0);
+}
+.CONTACTS:hover::after {
+	opacity: 0;	
+	transform: scale(0.1, 1);
+}
+.perehod{
+	width: 500px;
+	height: auto;
+	vertical-align: middle;
+}
+.logo{
+	height: 170px;
+}
+.dialogue1{
+	width: 500px;
+	height: auto;
+}
+.dialogue2{
+	width: 300px;
+	height: auto;
+}
